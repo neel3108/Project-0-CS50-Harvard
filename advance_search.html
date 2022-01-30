@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advanced_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advance_search.html">Advanced Search</a>
+            </li>
+          </ul>
+    </nav>
+    <form action="https://www.google.com/search">
+
+        <h2 id="asLab">Advanced Search</h2>
+        <hr>
+
+        <div id="mainOne">
+            <div id="toplbl">
+                <div>
+                    <h4 id="findlbl">Find pages with...</h4>
+                </div>
+                <div id="blankSp">&nbsp;</div>
+                <div id="toDoLbl1" class="toDoLbl">
+                    <h6>To do this in the search box.</h6>
+                </div>
+
+            </div>
+           
+            <br>
+            <div class="quesDiv" id="ques1">
+                <div class="lbels">
+                    <label class="aclbl" id="lbl1">all these words:</label>
+                </div>
+                <div class="intps" id="inp1">
+                    <input class="acIntps" size="70" type="text" name="as_q">
+                </div>
+                <div id="toDoLbl1" class="toDoLbl4">
+                    Type the important words: <b>tricolor rat terrier</b>
+                </div>
+            </div>
+
+
+            <div class="quesDiv" id="ques2">
+                <div class="lbels">
+                    <label class="aclbl" id="lbl2">this exact word or phrase:</label>
+                </div>
+                <div class="intps" id="inp2">
+                    <input class="acIntps"  size="70" type="text" name="as_epq">
+                </div>
+                <div id="toDoLbl1" class="toDoLbl4">
+                    Put exact words in quotes: <b>"rat terrier"</b>
+                </div>
+            </div>
+
+            <div class="quesDiv" id="ques3">
+                <div class="lbels">
+                    <label class="aclbl" id="lbl3">any of these words:</label>
+                </div>
+                <div class="intps" id="inp3">
+                    <input class="acIntps" size="70"  type="text" name="as_oq">
+                </div>
+                <div id="toDoLbl1" class="toDoLbl4">
+                    Type <b>OR</b> between all the words you want:  <b> miniature OR standard</b>
+                </div>
+            </div>
+
+            <div class="quesDiv" id="ques4">
+                <div class="lbels">
+                    <label class="aclbl" id="lbl4">none of these words:</label>
+                </div>
+                <div class="intps" id="inp4">
+                    <input class="acIntps" size="70"  type="text" name="as_eq">
+                </div>
+                <div id="toDoLbl1" class="toDoLbl4">
+                    Put a minus sign just before words you don't want: <b> -rodent, -"Jack Russell"</b>
+                </div>
+
+                
+            </div>
+
+            <div id="sbtn" >
+                <input style="background: #8ab4f8;border-color: #8ab4f8;color: #202124;" value="Advanced Search" aria-label="Advanced Search" name="btnK" type="submit">
+               </div>
+        </div>
+        
+      
+    
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+

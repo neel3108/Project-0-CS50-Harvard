@@ -1,0 +1,61 @@
+#asLab{
+    color: red;
+    padding-left: 25px;
+}
+
+
+.boldLbl{
+    display: flex !important;
+}
+.quesDiv{
+    display: flex;
+}
+
+#toplbl{
+    display: flex;
+}
+.toDoLbl4{
+    padding-left: 10px !important;
+}
+
+#toDoLbl{
+    padding-top: 10px;
+    padding-left: 10px !important;
+}
+
+#blankSp{
+    padding-left: 310px;
+    padding-right: 310px;
+}
+
+
+.lbels{
+    padding-left: 50px;
+}
+
+#findlbl{
+    padding-left: 20px;
+}
+
+#sbtn{
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 150px;
+    
+}
+
+#inp1{
+    padding-left: 99.5px;
+}
+#inp2{
+    padding-left: 27.5px;
+}
+#inp3{
+    padding-left: 72px;
+}
+#inp4{
+    padding-left: 61px;
+}
+
+
